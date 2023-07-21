@@ -1,0 +1,1087 @@
+18:28:54.760 [main] INFO  com.bmw.seckill.SeckillWebApplication - Starting SeckillWebApplication on ZkiYoung-LEGION with PID 62616 (started by Zki Young in H:\program\java program\IDEAfile\projects\bmwSecKill\complet\client-filter\seckill-parent)
+18:28:54.766 [main] DEBUG com.bmw.seckill.SeckillWebApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+18:28:54.766 [main] INFO  com.bmw.seckill.SeckillWebApplication - No active profile set, falling back to default profiles: default
+18:28:55.839 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+18:28:55.847 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:28:55.848 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+18:28:55.854 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;F:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\Security\service;F:\Program Files\Apache\Maven\apache-maven-3.8.4\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:cygwinbin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;C:\Program Files (x86)\Lenovo\PCManager\4.0.30.12093\;F:\Program Files\ComputerVision\Anaconda3;F:\Program Files\ComputerVision\Anaconda3\Scripts;F:\Program Files (x86)\PICT\;F:\Program Files\Oracle\MySQL\mysql-5.6.40-winx64\bin;F:\Program Files\Oracle\MySQL\mysql-5.5.62-winx64\bin;F:\Program Files\Microsoft\Microsoft VS Code\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\dotnet\;F:\Program Files\Git\cmd;F:\Program Files (x86)\NetSarang\Xshell 7\;F:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Program Files (x86)\NetSarang\Xftp 7\;F:\Program Files\Java\jdk-11.0.12_windows-x64_bin\jdk-11.0.12\bin;F:\Program Files (x86)\Java\jdk1.8.0_291\bin;C:\Users\Zki Young\AppData\Local\Microsoft\WindowsApps;C:\Users\Zki Young\.dotnet\tools;C:\Users\Zki Young\AppData\Roaming\npm;;.]
+18:28:55.995 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:28:56.030 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+18:28:56.034 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 16
+18:28:56.040 [main] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+18:28:56.060 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+18:28:56.060 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+18:28:56.064 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+18:28:56.065 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+18:28:56.066 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+18:28:56.067 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+18:28:56.068 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+18:28:56.068 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+18:28:56.069 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:224) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:218) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:212) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:80) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:171) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:213) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:201) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.HashedWheelTimer.<clinit>(HashedWheelTimer.java:89) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:173) ~[lettuce-core-5.1.4.RELEASE.jar:?]
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:527) ~[lettuce-core-5.1.4.RELEASE.jar:?]
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:237) ~[lettuce-core-5.1.4.RELEASE.jar:?]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:67) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3aafc807.CGLIB$lettuceClientResources$1(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3aafc807$$FastClassBySpringCGLIB$$7f792443.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3aafc807.lettuceClientResources(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1665) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:235) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:101) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:88) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5125) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) [?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) [?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:455) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:415) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:174) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) [spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.bmw.seckill.SeckillWebApplication.main(SeckillWebApplication.java:15) [classes/:?]
+18:28:56.077 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+18:28:56.078 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52d67839
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:558) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:334) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:325) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:212) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:80) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:171) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:213) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:201) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.netty.util.HashedWheelTimer.<clinit>(HashedWheelTimer.java:89) ~[netty-common-4.1.33.Final.jar:4.1.33.Final]
+	at io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:173) ~[lettuce-core-5.1.4.RELEASE.jar:?]
+	at io.lettuce.core.resource.DefaultClientResources$Builder.build(DefaultClientResources.java:527) ~[lettuce-core-5.1.4.RELEASE.jar:?]
+	at io.lettuce.core.resource.DefaultClientResources.create(DefaultClientResources.java:237) ~[lettuce-core-5.1.4.RELEASE.jar:?]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration.lettuceClientResources(LettuceConnectionConfiguration.java:67) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3aafc807.CGLIB$lettuceClientResources$1(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3aafc807$$FastClassBySpringCGLIB$$7f792443.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3aafc807.lettuceClientResources(<generated>) ~[spring-boot-autoconfigure-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1305) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1144) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1325) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1171) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:312) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:131) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1665) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:235) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:226) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:101) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:88) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:261) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:54) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5125) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) [?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1377) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1367) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) [?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:928) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:455) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:106) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:415) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:174) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) [spring-context-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at com.bmw.seckill.SeckillWebApplication.main(SeckillWebApplication.java:15) [classes/:?]
+18:28:56.080 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+18:28:56.080 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+18:28:56.081 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 8422162432 bytes (maybe)
+18:28:56.081 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\ZKIYOU~1\AppData\Local\Temp (java.io.tmpdir)
+18:28:56.082 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+18:28:56.083 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+18:28:56.083 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+18:28:56.084 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+18:28:56.084 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+18:28:56.084 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@623e0631
+18:28:56.086 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+18:28:56.096 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+18:28:56.110 [main] DEBUG reactor.core.publisher.UnsafeSupport - Starting UnsafeSupport init in Java 11
+18:28:56.110 [main] DEBUG reactor.core.publisher.UnsafeSupport - Unsafe is available
+18:28:56.119 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+18:28:56.153 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+18:28:56.153 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+18:28:56.153 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+18:28:56.153 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+18:28:56.154 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+18:28:56.157 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+18:28:56.157 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+18:28:56.275 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc
+18:28:56.300 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+18:28:56.335 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+18:28:56.337 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.Demo matches criteria [is assignable to Object]
+18:28:56.338 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.SeckillAdmin matches criteria [is assignable to Object]
+18:28:56.338 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.SeckillOrder matches criteria [is assignable to Object]
+18:28:56.339 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.SeckillProducts matches criteria [is assignable to Object]
+18:28:56.340 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.SeckillUser matches criteria [is assignable to Object]
+18:28:56.340 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.http.UserReq$BaseUserInfo matches criteria [is assignable to Object]
+18:28:56.341 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.http.UserReq$LoginUserInfo matches criteria [is assignable to Object]
+18:28:56.341 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.http.UserReq matches criteria [is assignable to Object]
+18:28:56.342 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.http.UserResp$BaseUserResp matches criteria [is assignable to Object]
+18:28:56.342 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.bmw.seckill.model.http.UserResp matches criteria [is assignable to Object]
+18:28:56.501 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+18:28:56.501 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+18:28:56.503 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+18:28:56.504 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+18:28:56.504 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+18:28:56.504 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+18:28:56.505 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+18:28:56.505 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+18:28:56.505 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+18:28:56.505 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+18:28:56.505 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+18:28:56.508 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+18:28:56.508 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+18:28:56.509 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+18:28:56.509 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+18:28:56.509 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+18:28:56.903 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+18:28:56.927 [main] INFO  com.bmw.seckill.SeckillWebApplication - Started SeckillWebApplication in 2.562 seconds (JVM running for 4.233)
+18:29:15.868 [http-nio-8081-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:29:16.552 [http-nio-8081-exec-2] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [668] milliseconds.
+18:29:16.554 [http-nio-8081-exec-2] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/demo/test,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:29:30.029 [http-nio-8081-exec-4] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/demo/test,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:29:30.034 [http-nio-8081-exec-4] DEBUG io.lettuce.core.RedisClient - Trying to get a Redis connection for: RedisURI [host='127.0.0.1', port=6379]
+18:29:30.137 [http-nio-8081-exec-4] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+18:29:30.140 [http-nio-8081-exec-4] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+18:29:30.142 [http-nio-8081-exec-4] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+18:29:30.142 [http-nio-8081-exec-4] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.channel.nio.NioEventLoopGroup
+18:29:30.143 [http-nio-8081-exec-4] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+18:29:30.146 [http-nio-8081-exec-4] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+18:29:30.146 [http-nio-8081-exec-4] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+18:29:30.162 [http-nio-8081-exec-4] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Adding reference to io.netty.channel.nio.NioEventLoopGroup@555ec452, existing ref count 0
+18:29:30.172 [http-nio-8081-exec-4] DEBUG io.lettuce.core.RedisClient - Resolved SocketAddress 127.0.0.1:6379 using RedisURI [host='127.0.0.1', port=6379]
+18:29:30.173 [http-nio-8081-exec-4] DEBUG io.lettuce.core.RedisClient - Connecting to Redis at 127.0.0.1:6379
+18:29:30.182 [http-nio-8081-exec-4] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 62616 (auto-detected)
+18:29:30.185 [http-nio-8081-exec-4] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+18:29:30.185 [http-nio-8081-exec-4] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+18:29:30.807 [http-nio-8081-exec-4] DEBUG io.netty.util.NetUtil - Loopback interface: [lo, Software Loopback Interface 1, 127.0.0.1] ([lo, Software Loopback Interface 1, 127.0.0.1], {})
+18:29:30.808 [http-nio-8081-exec-4] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+18:29:31.521 [http-nio-8081-exec-4] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 9c:fc:e8:ff:fe:82:36:8d (auto-detected)
+18:29:31.536 [http-nio-8081-exec-4] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+18:29:31.536 [http-nio-8081-exec-4] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+18:29:31.536 [http-nio-8081-exec-4] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+18:29:31.552 [lettuce-nioEventLoop-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+18:29:31.552 [lettuce-nioEventLoop-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+18:29:31.552 [lettuce-nioEventLoop-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+18:29:31.552 [lettuce-nioEventLoop-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+18:29:31.558 [lettuce-nioEventLoop-4-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+18:29:31.558 [lettuce-nioEventLoop-4-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+18:29:31.558 [lettuce-nioEventLoop-4-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7c3acf21
+18:29:31.580 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, [id: 0xdce93e72] (inactive), chid=0x1] channelRegistered()
+18:29:31.585 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] channelActive()
+18:29:31.585 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered
+18:29:31.585 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] activating endpoint
+18:29:31.586 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] flushCommands()
+18:29:31.586 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] flushCommands() Flushing 0 commands
+18:29:31.586 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.ConnectionWatchdog - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, last known addr=/127.0.0.1:6379] channelActive()
+18:29:31.586 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.ConnectionWatchdog - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, last known addr=/127.0.0.1:6379] channelActive()
+18:29:31.586 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] channelActive() done
+18:29:31.588 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.RedisClient - Connecting to Redis at 127.0.0.1:6379: Success
+18:29:31.589 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.ConnectionWatchdog - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, last known addr=/127.0.0.1:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@4c7ea3cf)
+18:29:31.589 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.ConnectionWatchdog - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, last known addr=/127.0.0.1:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@4c7ea3cf)
+18:29:31.590 [http-nio-8081-exec-4] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:31.592 [http-nio-8081-exec-4] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:31.593 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:29:31.594 [http-nio-8081-exec-4] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:29:31.597 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:31.602 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:29:31.602 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:29:31.602 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:31.604 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:29:44.860 [http-nio-8081-exec-3] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/getPhoneSmsCode,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:29:44.982 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+18:29:44.984 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+18:29:44.984 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+18:29:44.984 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/bmwseckill?useSSL=true&charset=utf8mb4&serverTimezone=Hongkong
+18:29:44.985 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+18:29:44.986 [http-nio-8081-exec-3] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+18:29:44.986 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:29:45.263 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:29:45.271 [http-nio-8081-exec-3] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==>  Preparing: SELECT id, name, phone, create_time, is_deleted from seckill_user where 1=1 and phone = ? 
+18:29:45.292 [http-nio-8081-exec-3] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==> Parameters: 18602832211(String)
+18:29:45.317 [http-nio-8081-exec-3] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - <==      Total: 1
+18:29:45.325 [http-nio-8081-exec-3] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:45.326 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:45.326 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:29:45.326 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:29:45.328 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:45.328 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:29:45.329 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:29:45.329 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:45.329 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:29:53.235 [http-nio-8081-exec-6] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/userPhoneLogin,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:29:53.238 [http-nio-8081-exec-6] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.238 [http-nio-8081-exec-6] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.238 [http-nio-8081-exec-6] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:29:53.239 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:29:53.239 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.240 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 14, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 14, 1] bytes, {} commands in the stack
+18:29:53.240 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:29:53.240 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.240 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=GET, output=ValueOutput [output=[B@6c580398, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:29:53.253 [http-nio-8081-exec-6] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.254 [http-nio-8081-exec-6] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.254 [http-nio-8081-exec-6] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:29:53.254 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:29:53.255 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.255 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 4, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 4, 1] bytes, {} commands in the stack
+18:29:53.255 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:29:53.255 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.255 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=DEL, output=IntegerOutput [output=1, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:29:53.257 [http-nio-8081-exec-6] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==>  Preparing: SELECT id, name, phone, create_time, is_deleted from seckill_user where 1=1 and phone = ? 
+18:29:53.257 [http-nio-8081-exec-6] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==> Parameters: 18602832211(String)
+18:29:53.258 [http-nio-8081-exec-6] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - <==      Total: 1
+18:29:53.266 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Setting default value: false
+18:29:53.266 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+18:29:53.266 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BooleanConverter -     No conversion required, value is already a Boolean
+18:29:53.267 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Setting default value: 0
+18:29:53.267 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ByteConverter -     Converted to Byte value '0'
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Setting default value:  
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.CharacterConverter -     No conversion required, value is already a Character
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Setting default value: 0
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+18:29:53.268 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DoubleConverter -     Converted to Double value '0.0'
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Setting default value: 0
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.FloatConverter -     Converted to Float value '0.0'
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Setting default value: 0
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter - Setting default value: 0
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Integer' value '0' to type 'Long'
+18:29:53.269 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter -     Converted to Long value '0'
+18:29:53.270 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Setting default value: 0
+18:29:53.270 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+18:29:53.270 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ShortConverter -     Converted to Short value '0'
+18:29:53.271 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter - Setting default value: 0.0
+18:29:53.271 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+18:29:53.271 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BigDecimalConverter -     No conversion required, value is already a BigDecimal
+18:29:53.271 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter - Setting default value: 0
+18:29:53.271 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter - Converting 'BigInteger' value '0' to type 'BigInteger'
+18:29:53.271 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BigIntegerConverter -     No conversion required, value is already a BigInteger
+18:29:53.272 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Setting default value: false
+18:29:53.272 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+18:29:53.272 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.BooleanConverter -     No conversion required, value is already a Boolean
+18:29:53.272 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Setting default value: 0
+18:29:53.272 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+18:29:53.272 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ByteConverter -     Converted to Byte value '0'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Setting default value:  
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.CharacterConverter -     No conversion required, value is already a Character
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Setting default value: 0
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DoubleConverter -     Converted to Double value '0.0'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Setting default value: 0
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.FloatConverter -     Converted to Float value '0.0'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Setting default value: 0
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.IntegerConverter -     No conversion required, value is already a Integer
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter - Setting default value: 0
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Integer' value '0' to type 'Long'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter -     Converted to Long value '0'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Setting default value: 0
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+18:29:53.273 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ShortConverter -     Converted to Short value '0'
+18:29:53.274 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.StringConverter - Setting default value: 
+18:29:53.274 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '' to type 'String'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Z@18e33a81
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'boolean[]' value '[Z@18e33a81' to type 'boolean[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a boolean[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [B@981999e
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'byte[]' value '[B@981999e' to type 'byte[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a byte[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [C@448a8844
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'char[]' value '[C@448a8844' to type 'char[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a char[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [D@183675ac
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'double[]' value '[D@183675ac' to type 'double[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a double[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [F@19807319
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'float[]' value '[F@19807319' to type 'float[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a float[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [I@1c4844de
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'int[]' value '[I@1c4844de' to type 'int[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a int[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [J@c9027bb
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'long[]' value '[J@c9027bb' to type 'long[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a long[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [S@27a0a890
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'short[]' value '[S@27a0a890' to type 'short[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a short[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.math.BigDecimal;@3d221fc6
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@3d221fc6' to type 'BigDecimal[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a BigDecimal[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.math.BigInteger;@6e329c2e
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@6e329c2e' to type 'BigInteger[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a BigInteger[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Boolean;@6185b737
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@6185b737' to type 'Boolean[]'
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Boolean[]
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Byte;@6edb16c1
+18:29:53.277 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Byte[]' value '[Ljava.lang.Byte;@6edb16c1' to type 'Byte[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Byte[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Character;@2bd887
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Character[]' value '[Ljava.lang.Character;@2bd887' to type 'Character[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Character[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Double;@49f01fef
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Double[]' value '[Ljava.lang.Double;@49f01fef' to type 'Double[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Double[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Float;@211a659c
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Float[]' value '[Ljava.lang.Float;@211a659c' to type 'Float[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Float[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Integer;@7b4922e7
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Integer[]' value '[Ljava.lang.Integer;@7b4922e7' to type 'Integer[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Integer[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Long;@5feebb95
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Long[]' value '[Ljava.lang.Long;@5feebb95' to type 'Long[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Long[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Short;@658cd446
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Short[]' value '[Ljava.lang.Short;@658cd446' to type 'Short[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Short[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.String;@7df8b770
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'String[]' value '[Ljava.lang.String;@7df8b770' to type 'String[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a String[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.lang.Class;@340235
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Class[]' value '[Ljava.lang.Class;@340235' to type 'Class[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Class[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.util.Date;@319d891
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Date[]' value '[Ljava.util.Date;@319d891' to type 'Date[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Date[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.util.Calendar;@68b16a7a
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'Calendar[]' value '[Ljava.util.Calendar;@68b16a7a' to type 'Calendar[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a Calendar[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.io.File;@5246c24
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.io.File[]' value '[Ljava.io.File;@5246c24' to type 'java.io.File[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.io.File[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Date;@66ceeb69
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@66ceeb69' to type 'java.sql.Date[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Date[]
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Time;@2fb17c61
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@2fb17c61' to type 'java.sql.Time[]'
+18:29:53.278 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Time[]
+18:29:53.279 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.sql.Timestamp;@461aa19d
+18:29:53.279 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@461aa19d' to type 'java.sql.Timestamp[]'
+18:29:53.279 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.sql.Timestamp[]
+18:29:53.279 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Setting default value: [Ljava.net.URL;@78858b1a
+18:29:53.279 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter - Converting 'java.net.URL[]' value '[Ljava.net.URL;@78858b1a' to type 'java.net.URL[]'
+18:29:53.279 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.ArrayConverter -     No conversion required, value is already a java.net.URL[]
+18:29:53.282 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.BeanUtils - BeanUtils.copyProperties(CommonWebUser(id=null, name=null, phone=null, createTime=null, updateTime=null), com.bmw.seckill.model.SeckillUser@59a091e8)
+18:29:53.297 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DateConverter - Converting 'Date' value 'Thu Aug 27 11:40:52 CST 2020' to type 'Date'
+18:29:53.297 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.DateConverter -     No conversion required, value is already a Date
+18:29:53.297 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '18602832211' to type 'String'
+18:29:53.297 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '测试用户1' to type 'String'
+18:29:53.298 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Long' value '1' to type 'Long'
+18:29:53.298 [http-nio-8081-exec-6] DEBUG org.apache.commons.beanutils.converters.LongConverter -     No conversion required, value is already a Long
+18:29:53.302 [http-nio-8081-exec-6] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.302 [http-nio-8081-exec-6] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.302 [http-nio-8081-exec-6] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:29:53.302 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:29:53.303 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.303 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:29:53.303 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:29:53.303 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:29:53.303 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:30:04.886 [http-nio-8081-exec-5] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/demo/test,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:30:04.886 [http-nio-8081-exec-5] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:04.886 [http-nio-8081-exec-5] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:04.887 [http-nio-8081-exec-5] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:30:04.887 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:30:04.887 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:04.888 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 101, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 101, 1] bytes, {} commands in the stack
+18:30:04.888 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:30:04.888 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:04.888 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=GET, output=ValueOutput [output=[B@5ba321ed, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:30:04.894 [http-nio-8081-exec-5] DEBUG com.bmw.seckill.dao.DemoDao.list - ==>  Preparing: SELECT id , text, create_time, update_time, is_deleted, is_enabled from demo where 1=1 
+18:30:04.894 [http-nio-8081-exec-5] DEBUG com.bmw.seckill.dao.DemoDao.list - ==> Parameters: 
+18:30:04.912 [http-nio-8081-exec-5] DEBUG com.bmw.seckill.dao.DemoDao.list - <==      Total: 110
+18:30:22.220 [http-nio-8081-exec-7] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/userPhoneLogin,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:30:22.221 [http-nio-8081-exec-7] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:22.222 [http-nio-8081-exec-7] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:22.222 [http-nio-8081-exec-7] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:30:22.222 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:30:22.222 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:22.223 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:30:22.223 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:30:22.223 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:22.223 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:30:33.571 [http-nio-8081-exec-8] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/getPhoneSmsCode,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:30:33.573 [http-nio-8081-exec-8] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==>  Preparing: SELECT id, name, phone, create_time, is_deleted from seckill_user where 1=1 and phone = ? 
+18:30:33.573 [http-nio-8081-exec-8] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==> Parameters: 18602832211(String)
+18:30:33.574 [http-nio-8081-exec-8] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - <==      Total: 1
+18:30:33.574 [http-nio-8081-exec-8] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:33.574 [http-nio-8081-exec-8] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:33.575 [http-nio-8081-exec-8] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:30:33.575 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:30:33.575 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:33.576 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:30:33.576 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:30:33.576 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:33.576 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:30:57.704 [http-nio-8081-exec-9] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/userPhoneLogin,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:30:57.705 [http-nio-8081-exec-9] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.705 [http-nio-8081-exec-9] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.705 [http-nio-8081-exec-9] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:30:57.705 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:30:57.706 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.706 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 14, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 14, 1] bytes, {} commands in the stack
+18:30:57.706 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:30:57.706 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.706 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=GET, output=ValueOutput [output=[B@6887a0bd, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:30:57.707 [http-nio-8081-exec-9] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.707 [http-nio-8081-exec-9] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.707 [http-nio-8081-exec-9] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:30:57.707 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:30:57.708 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.709 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 4, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 4, 1] bytes, {} commands in the stack
+18:30:57.709 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:30:57.709 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.709 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=DEL, output=IntegerOutput [output=1, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:30:57.710 [http-nio-8081-exec-9] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==>  Preparing: SELECT id, name, phone, create_time, is_deleted from seckill_user where 1=1 and phone = ? 
+18:30:57.710 [http-nio-8081-exec-9] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==> Parameters: 18602832211(String)
+18:30:57.712 [http-nio-8081-exec-9] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - <==      Total: 1
+18:30:57.712 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.BeanUtils - BeanUtils.copyProperties(CommonWebUser(id=null, name=null, phone=null, createTime=null, updateTime=null), com.bmw.seckill.model.SeckillUser@6fa1b8fb)
+18:30:57.713 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.converters.DateConverter - Converting 'Date' value 'Thu Aug 27 11:40:52 CST 2020' to type 'Date'
+18:30:57.713 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.converters.DateConverter -     No conversion required, value is already a Date
+18:30:57.713 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '18602832211' to type 'String'
+18:30:57.714 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '测试用户1' to type 'String'
+18:30:57.714 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Long' value '1' to type 'Long'
+18:30:57.714 [http-nio-8081-exec-9] DEBUG org.apache.commons.beanutils.converters.LongConverter -     No conversion required, value is already a Long
+18:30:57.714 [http-nio-8081-exec-9] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.715 [http-nio-8081-exec-9] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.715 [http-nio-8081-exec-9] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:30:57.715 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:30:57.715 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.716 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:30:57.716 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:30:57.716 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:30:57.716 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:50:17.318 [http-nio-8081-exec-2] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:50:17.330 [http-nio-8081-exec-2] ERROR com.bmw.seckill.common.exception.ExceptionControllerAdvice - 系统异常
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.bmw.seckill.security.UserLoginFilter.doFilter(UserLoginFilter.java:77) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+18:50:51.151 [http-nio-8081-exec-4] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:50:51.151 [http-nio-8081-exec-4] ERROR com.bmw.seckill.common.exception.ExceptionControllerAdvice - 系统异常
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.bmw.seckill.security.UserLoginFilter.doFilter(UserLoginFilter.java:77) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+18:55:42.836 [http-nio-8081-exec-5] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:55:42.837 [http-nio-8081-exec-5] ERROR com.bmw.seckill.common.exception.ExceptionControllerAdvice - 系统异常
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.bmw.seckill.security.UserLoginFilter.doFilter(UserLoginFilter.java:77) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+18:55:53.497 [http-nio-8081-exec-7] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:55:53.498 [http-nio-8081-exec-7] ERROR com.bmw.seckill.common.exception.ExceptionControllerAdvice - 系统异常
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.bmw.seckill.security.UserLoginFilter.doFilter(UserLoginFilter.java:77) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+18:57:33.412 [http-nio-8081-exec-10] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/demo/test,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:57:33.413 [http-nio-8081-exec-10] DEBUG com.bmw.seckill.dao.DemoDao.list - ==>  Preparing: SELECT id , text, create_time, update_time, is_deleted, is_enabled from demo where 1=1 
+18:57:33.414 [http-nio-8081-exec-10] DEBUG com.bmw.seckill.dao.DemoDao.list - ==> Parameters: 
+18:57:33.422 [http-nio-8081-exec-10] DEBUG com.bmw.seckill.dao.DemoDao.list - <==      Total: 110
+18:57:36.824 [http-nio-8081-exec-1] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:57:36.825 [http-nio-8081-exec-1] ERROR com.bmw.seckill.common.exception.ExceptionControllerAdvice - 系统异常
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:419) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:365) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.bmw.seckill.security.UserLoginFilter.doFilter(UserLoginFilter.java:77) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+18:57:42.859 [http-nio-8081-exec-2] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:57:42.860 [http-nio-8081-exec-2] INFO  com.bmw.seckill.controller.UserController - {"createTime":1598499652000,"id":1,"name":"测试用户1","phone":"18602832211"}
+18:58:24.130 [http-nio-8081-exec-4] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/getPhoneSmsCode,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:58:24.132 [http-nio-8081-exec-4] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==>  Preparing: SELECT id, name, phone, create_time, is_deleted from seckill_user where 1=1 and phone = ? 
+18:58:24.132 [http-nio-8081-exec-4] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==> Parameters: 18602832211(String)
+18:58:24.134 [http-nio-8081-exec-4] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - <==      Total: 1
+18:58:24.135 [http-nio-8081-exec-4] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:24.135 [http-nio-8081-exec-4] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:24.135 [http-nio-8081-exec-4] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:58:24.135 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:58:24.136 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:24.136 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:58:24.136 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:58:24.137 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:24.137 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:58:38.374 [http-nio-8081-exec-3] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/userPhoneLogin,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:58:38.375 [http-nio-8081-exec-3] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.375 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.375 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:58:38.375 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:58:38.376 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.376 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 14, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 14, 1] bytes, {} commands in the stack
+18:58:38.376 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:58:38.376 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.377 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=GET, output=ValueOutput [output=[B@25ec3119, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:58:38.377 [http-nio-8081-exec-3] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.377 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.377 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:58:38.378 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:58:38.378 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.378 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 4, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 4, 1] bytes, {} commands in the stack
+18:58:38.379 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:58:38.379 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=DEL, output=IntegerOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.379 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=DEL, output=IntegerOutput [output=1, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:58:38.380 [http-nio-8081-exec-3] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==>  Preparing: SELECT id, name, phone, create_time, is_deleted from seckill_user where 1=1 and phone = ? 
+18:58:38.380 [http-nio-8081-exec-3] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - ==> Parameters: 18602832211(String)
+18:58:38.381 [http-nio-8081-exec-3] DEBUG com.bmw.seckill.dao.SeckillUserDao.list - <==      Total: 1
+18:58:38.381 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.BeanUtils - BeanUtils.copyProperties(CommonWebUser(id=null, name=null, phone=null, createTime=null, updateTime=null), com.bmw.seckill.model.SeckillUser@2f6cba4b)
+18:58:38.381 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.converters.DateConverter - Converting 'Date' value 'Thu Aug 27 11:40:52 CST 2020' to type 'Date'
+18:58:38.381 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.converters.DateConverter -     No conversion required, value is already a Date
+18:58:38.381 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '18602832211' to type 'String'
+18:58:38.382 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.converters.StringConverter - Converting 'String' value '测试用户1' to type 'String'
+18:58:38.382 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.converters.LongConverter - Converting 'Long' value '1' to type 'Long'
+18:58:38.382 [http-nio-8081-exec-3] DEBUG org.apache.commons.beanutils.converters.LongConverter -     No conversion required, value is already a Long
+18:58:38.382 [http-nio-8081-exec-3] DEBUG io.lettuce.core.RedisChannelHandler - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.382 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.382 [http-nio-8081-exec-3] DEBUG io.lettuce.core.protocol.DefaultEndpoint - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, epid=0x1] write() done
+18:58:38.382 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+18:58:38.383 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandEncoder - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.384 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] Received: [[channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1], 5, 1] bytes, {} commands in the stack
+18:58:38.384 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.CommandHandler - [channel=0xb27d1d81, /127.0.0.1:62024 -> /127.0.0.1:6379, chid=0x1] Stack contains: 1 commands
+18:58:38.384 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+18:58:38.384 [lettuce-nioEventLoop-4-1] DEBUG io.lettuce.core.protocol.RedisStateMachine - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+18:58:49.393 [http-nio-8081-exec-6] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/demo/test,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:58:49.394 [http-nio-8081-exec-6] DEBUG com.bmw.seckill.dao.DemoDao.list - ==>  Preparing: SELECT id , text, create_time, update_time, is_deleted, is_enabled from demo where 1=1 
+18:58:49.395 [http-nio-8081-exec-6] DEBUG com.bmw.seckill.dao.DemoDao.list - ==> Parameters: 
+18:58:49.400 [http-nio-8081-exec-6] DEBUG com.bmw.seckill.dao.DemoDao.list - <==      Total: 110
+18:58:55.081 [http-nio-8081-exec-5] INFO  com.bmw.seckill.security.UserLoginFilter - url:=/user/checkUserToken,pattrn:=/?([-|\w]+)?/(demo|product)/(\w)+|/?([-|\\w]+)?/assess/(index|partReport).do
+18:58:55.081 [http-nio-8081-exec-5] INFO  com.bmw.seckill.controller.UserController - {"createTime":1598499652000,"id":1,"name":"测试用户1","phone":"18602832211"}
+18:59:01.561 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ca7f980: (connection has passed maxLifetime)
+18:59:06.451 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6372fb10: (connection has passed maxLifetime)
+18:59:09.574 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3fd96edd: (connection has passed maxLifetime)
+18:59:17.971 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5bafe3f: (connection has passed maxLifetime)
+18:59:18.034 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b7d00f8: (connection has passed maxLifetime)
+18:59:20.089 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f42954f: (connection has passed maxLifetime)
+18:59:22.070 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a400ac3: (connection has passed maxLifetime)
+18:59:37.726 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31620a97: (connection has passed maxLifetime)
+18:59:40.878 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3fa5f2cb: (connection has passed maxLifetime)
+18:59:42.530 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b9a61e7: (connection has passed maxLifetime)
+19:28:47.039 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b5b52fa: (connection has passed maxLifetime)
+19:28:48.007 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@359cabe1: (connection has passed maxLifetime)
+19:28:57.635 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b118e06: (connection has passed maxLifetime)
+19:29:01.716 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@25d67514: (connection has passed maxLifetime)
+19:29:04.786 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21e9e576: (connection has passed maxLifetime)
+19:29:08.089 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@64eb7f2f: (connection has passed maxLifetime)
+19:29:11.922 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@432dbc0a: (connection has passed maxLifetime)
+19:29:18.153 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10781fc1: (connection has passed maxLifetime)
+19:29:40.532 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6dd5ed0d: (connection has passed maxLifetime)
+19:29:41.314 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63121ec7: (connection has passed maxLifetime)
+19:58:22.135 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@376cc0f: (connection has passed maxLifetime)
+19:58:24.048 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@db13211: (connection has passed maxLifetime)
+19:58:31.136 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@225a8b5d: (connection has passed maxLifetime)
+19:58:31.650 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c9d6166: (connection has passed maxLifetime)
+19:58:35.480 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28a2e02d: (connection has passed maxLifetime)
+19:58:35.806 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6da06b5d: (connection has passed maxLifetime)
+19:58:44.662 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d1589db: (connection has passed maxLifetime)
+19:58:44.927 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63d27a09: (connection has passed maxLifetime)
+19:59:15.675 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21983ff2: (connection has passed maxLifetime)
+19:59:22.741 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ee435aa: (connection has passed maxLifetime)
